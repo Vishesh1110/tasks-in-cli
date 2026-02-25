@@ -1,6 +1,8 @@
 import typer
 from rich.console import Console
 from rich.table import Table
+from model import Todo
+from database import insert_todo, get_all_todos, delete_todo, update_todo, complete_todo
 
 console = Console()
 
